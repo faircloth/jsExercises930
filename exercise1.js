@@ -71,6 +71,23 @@ getLength ("Andrew");
 // the function should return `false`.
 
 
+var greaterThan = function (y,z) {
+
+  if (z>y) {
+    return true
+  }
+  else {
+    return false
+  };
+
+};
+
+greaterThan (2,3);
+true
+
+greaterThan (2,2);
+false
+
 
 
 // Q5
