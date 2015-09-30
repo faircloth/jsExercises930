@@ -97,6 +97,14 @@ false
 // is the parameter that was passed in.
 
 
+var greet = function (name) {
+
+  return "Hello, " + name + "!";
+};
+
+greet ("Andrew");
+"Hello, Andrew!"
+
 
 
 // Q6
