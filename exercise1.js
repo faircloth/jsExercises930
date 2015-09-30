@@ -118,7 +118,14 @@ greet ("Andrew");
 // words: "quick", "fox", "fence"
 // sentence: "quick brown fox jumps over the fence"
 
+var madlib = function (w1,w2,w3,w4) {
 
+return "If the " + w1 + " win the game, they will play the " + w2 + "in the next round " + w3 + " ,but if the " + w4 + " win, they will play at home."; 
+
+};
+
+madlib ("Cubs", "Cardinals", "on the road", "Pirates");
+"If the Cubs win the game, they will play the Cardinalsin the next round on the road ,but if the Pirates win, they will play at home."
 
 
 ///////////////////////////////////////////////////////
